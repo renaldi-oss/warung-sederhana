@@ -1,0 +1,37 @@
+App\Models\Category::create([
+    'name' => 'makanan'
+]);
+App\Models\Category::create([
+    'name' => 'minuman'
+])
+User::create([
+    'name' => 'aldi',
+    'username' => 'aldi',
+    'email' => 'reynaldifp2000@gmail.com',
+    'password' => '123456'
+
+])
+User::create([
+    'name' => 'aldo',
+    'username' => 'aldo',
+    'email' => 'reynald0fp2001@gmail.com',
+    'password' => '123456'
+])
+menu::create([
+    'category_id' => '1',
+    'user_id' => '1',
+    'name' => 'geprek',
+    'price'=> '10000'
+])
+menu::create([
+    'category_id' => '1',
+    'user_id' => '1',
+    'name' => 'soto',
+    'price'=> '10000'
+])
+menu::create([
+    'category_id' => '2',
+    'user_id' => '1',
+    'name' => 'es teh',
+    'price'=> '1000'
+])
